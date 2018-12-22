@@ -1,0 +1,118 @@
+# Reading D:/Program/ModelSim/tcl/vsim/pref.tcl
+# OpenFile C:/Users/paulg/Desktop/AES/AES.mpf
+# Loading project AES
+# Compile of Compteur.vhd failed with 2 errors.
+# Compile of Compteur.vhd was successful.
+# Compile of Multiplexeur.vhd was successful.
+# Compile of InvMixColumn.vhd failed with 3 errors.
+# Compile of InvSubByte.vhd failed with 3 errors.
+# Compile of InvSubByte.vhd was successful.
+# Compile of InvMCColumn.vhd was successful.
+# Compile of KeyExpansion_table.vhd was successful.
+# Compile of InvAddRoundKey.vhd was successful.
+# Compile of Inverseur.vhd was successful.
+# Compile of Conv_typestate_to_bit128.vhd was successful.
+# Compile of Registre.vhd was successful.
+# Compile of InvShiftRows.vhd failed with 7 errors.
+# Compile of Conv_bit128_to_typestate.vhd was successful.
+# Compile of InvMixColumn.vhd failed with 3 errors.
+# Compile of InvMixColumn.vhd failed with 5 errors.
+# Compile of InvMixColumn.vhd failed with 5 errors.
+# Compile of InvAES_FSM.vhd was successful.
+# Compile of InvAESRound.vhd failed with 17 errors.
+# Compile of InvAESRound.vhd was successful.
+# Compile of InvAES.vhd was successful.
+# Compile of InvMixColumn.vhd failed with 5 errors.
+# Compile of Compteur_tb.vhd failed with 3 errors.
+# Compile of Compteur_tb.vhd was successful.
+# Compile of Registre_tb.vhd was successful.
+# Compile of InvShiftRows.vhd failed with 7 errors.
+# Compile of Multiplexeur_tb.vhd was successful.
+# Compile of Inverseur_tb.vhd was successful.
+# Compile of KeyExpansion_table_tb.vhd was successful.
+# Compile of InvSubByte_tb.vhd was successful.
+# Compile of InvAddRoundKey_tb.vhd was successful.
+# Compile of InvAESRound_tb.vhd was successful.
+# Compile of InvAES_FSM_tb.vhd was successful.
+# Compile of InvAES_tb.vhd was successful.
+# Compile of InvMCColumn_tb.vhd failed with 5 errors.
+# Compile of InvShiftRows.vhd failed with 7 errors.
+# Compile of InvShiftRows.vhd failed with 7 errors.
+# Compile of InvMCColumn_tb.vhd failed with 5 errors.
+# Compile of InvMCColumn.vhd was successful.
+# Compile of InvMixColumn.vhd was successful.
+# Compile of InvMixColumn_tb.vhd failed with 2 errors.
+# Compile of InvMixColumn_tb.vhd was successful.
+# Compile of InvMCColumn_tb.vhd was successful.
+# Compile of InvShiftRows_tb.vhd was successful.
+# Compile of InvShiftRows.vhd failed with 7 errors.
+# Compile of InvShiftRows.vhd failed with 7 errors.
+# Compile of InvShiftRows.vhd failed with 7 errors.
+vsim -gui lib_bench.compteur_tb
+# //  ModelSim PE Student Edition 10.4a Apr  7 2015 
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# // NOT FOR CORPORATE OR PRODUCTION USE.
+# // THE ModelSim PE Student Edition IS NOT A SUPPORTED PRODUCT.
+# // FOR HIGHER EDUCATION PURPOSES ONLY
+# //
+# vsim -gui C:\Users\paulg\Desktop\AES\AES.mpf 
+# Start time: 11:44:19 on Dec 22,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading aeslibrary.state_definition_package(body)
+# Loading lib_bench.compteur_tb(compteur_tb_arch)
+# Loading lib_sources.compteur(compteur_arch)
+add wave -position end  sim:/compteur_tb/resetb_i_s
+add wave -position end  sim:/compteur_tb/ce_i_s
+add wave -position end  sim:/compteur_tb/clk_i_s
+add wave -position end  sim:/compteur_tb/cpt_o_s
+radix -h
+# hexadecimal
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+vsim lib_bench.compteur_tb
+# vsim 
+# Start time: 11:45:51 on Dec 22,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading aeslibrary.state_definition_package(body)
+# Loading lib_bench.compteur_tb(compteur_tb_arch)
+# Loading lib_sources.compteur(compteur_arch)
+quit -sim
+# Compile of Compteur_tb.vhd was successful.
+vsim lib_bench.compteur_tb
+# vsim 
+# Start time: 11:46:51 on Dec 22,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading aeslibrary.state_definition_package(body)
+# Loading lib_bench.compteur_tb(compteur_tb_arch)
+# Loading lib_sources.compteur(compteur_arch)
